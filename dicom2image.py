@@ -1,12 +1,7 @@
-# 3rd party libraries
-
 import pydicom
 import cv2
 from pydicom.pixel_data_handlers.util import apply_voi_lut
 import numpy as np
-
-# original library
-
 import argparse
 import os
 import sys
@@ -40,10 +35,9 @@ if __name__ == "__main__":
 
 
 """
-REFERENCES
+Reference:
 
 1. APPLY_VOI_LUT (pydicom): https://pydicom.github.io/pydicom/dev/reference/generated/pydicom.pixel_data_handlers.apply_voi_lut.html
 2. PIXEL_ARRAY (pydicom): https://pydicom.github.io/pydicom/stable/reference/generated/pydicom.dataset.Dataset.html#pydicom.dataset.Dataset.pixel_array
-
 
 """
